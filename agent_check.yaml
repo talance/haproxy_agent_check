@@ -1,0 +1,7 @@
+test:            #定义应用
+  check:             #用于haproxy监控
+    host: 0.0.0.0    #监听IP
+    port: 4201      #端口
+  manage:            #管理，仅限更新状态
+    host: 0.0.0.0    #监听IP
+    port: 4202      #管理端口
