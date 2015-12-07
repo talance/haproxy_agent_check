@@ -16,9 +16,11 @@ uid_stat:            #定义应用
 ```
 
 **启动**
+
  python haproxy_agent.py &>/dev/null &
 
 **使用**
+
 1. 连接 check端口，默认返回 up 状态。
 > nc 127.0.0.1 4201
 
